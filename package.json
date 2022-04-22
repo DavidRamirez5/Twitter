@@ -1,0 +1,22 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "Proyecto realizado en Launch X",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidRamirez5/Twitter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidRamirez5/Twitter/issues"
+  },
+  "homepage": "https://github.com/DavidRamirez5/Twitter#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
