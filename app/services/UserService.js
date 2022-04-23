@@ -8,6 +8,7 @@ class UserService{
     }
     static updateUserUsername(user,newusername){
         return user.username = newusername
+        
     }
 
 }
