@@ -1,3 +1,4 @@
+const User = require('../app/models/User')
 const UserService = require('./../app/services/UserService')
 describe("Test for UserService",() => {
     test("1.- Create a new user using the UserService", () =>{
@@ -19,5 +20,10 @@ describe("Test for UserService",() => {
         expect(userInfoInList[1]).toBe('davidramirez')
         expect(userInfoInList[2]).toBe('David')
         expect(userInfoInList[3]).toBe('Sin bio')
+    })
+    test("3.- Update username",() =>{
+        const user= UserService.create("davidramirez","David")
+        UserService.updateUserUsername(user,"Andres")
+        expect(user.username).toBe("Andres")
     })
 })
