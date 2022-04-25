@@ -10,7 +10,11 @@ class UserService{
         return user.username = newusername
         
     }
+    static getAllUsernames(arr){
+        return   arr.map(obj => obj.username)
+    }
 
 }
+
 
 module.exports= UserService
